@@ -7,9 +7,9 @@
 
 \f0\fs24 \cf0 
 
-# Ignora archivos del sistema Mac .DS_Store\
-# Ignora todos los archivos *.rtf}
-# Ignora todos los archivos *.txt
+Ignora archivos del sistema Mac .DS_Store
+Ignora todos los archivos *.rtf
+Ignora todos los archivos *.txt
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,node,sass
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,node,sass
