@@ -27,22 +27,22 @@ h5{
 }
 
 .panesIzquierda{
-    height: 555px;
-    width: 555px;
+    height: 100%;
+    width: 85%;
     text-align: left;
 }
 
 .panesDerecha{
 
-    height: 555px;
-    width: 555px;
+    height: 100%;
+    width: 85%;
     text-align: right;
 }
 
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6,1fr);
+    grid-template-rows: repeat(5,1fr 0,25fr);
     grid-template-areas: 
     "masamadre nuestrospanes"
     "masamadre fermentacion"

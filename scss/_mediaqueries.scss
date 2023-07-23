@@ -27,6 +27,28 @@
         .textoLanding{
             font-size: 14px;
         }
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(0,25fr 4,1fr 0,50fr);
+            grid-template-areas: 
+            "nuestrospanes"
+            "masamadre"
+            "fermentacion"
+            "sabor"
+            "variedades"
+            "formatos";
+            row-gap: 1em;
+            row-gap: 0;
+            padding: 0;
+        }
+        .h5Alt{
+            font-size: 48px;
+        }
+        .grid-item{
+            padding: 0%;
+            justify-content: stretch;
+        }
     }
     
 // TABLETS
@@ -58,7 +80,25 @@
         .textoLanding{
             font-size: 18px;
         }
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(6,1fr);
+            grid-template-areas: 
+            "nuestrospanes"
+            "masamadre"
+            "fermentacion"
+            "sabor"
+            "variedades"
+            "formatos";
+            row-gap: .25em;
+        }
+        .grid-item{
+            padding: 0%;
+            justify-content: stretch;
+        }
     }
+
     
 // DESKTOP
     @media (min-width: 992px) {
@@ -85,6 +125,20 @@
             }
         .textoLanding{
             font-size: 20px;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(5,1fr 0,25fr);
+            grid-template-areas: 
+            "masamadre nuestrospanes"
+            "masamadre fermentacion"
+            "sabor fermentacion"
+            "sabor variedades"
+            "formatos variedades"
+            "formatos none";
+            column-gap: 3em;
+            row-gap: 3em;
         }
     }
     
