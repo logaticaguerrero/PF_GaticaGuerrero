@@ -273,13 +273,16 @@ footer {
   box-sizing: border-box; }
 
 body {
-  font-family: SF Pro;
-  src: url(../assets/fonts/SF-Pro.ttf);
   height: 100vh;
   background-color: #BEB5AD;
   margin-left: 0.25rem;
   margin-right: 0.25rem;
   margin-bottom: 0.50rem; }
+
+@font-face {
+  body {
+    font-family: SF PRO;
+    src: url(../assets/fonts/SF-Pro.ttf); } }
   body main {
     margin-top: 2%;
     margin-bottom: 2%;
