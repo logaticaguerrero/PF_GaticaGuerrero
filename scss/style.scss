@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./mixin";
 @import "./header";
 @import "./encabezado";
 @import "./paginas";
@@ -7,9 +8,7 @@
 @import "./mediaqueries";
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@include reset;
 }
 
 body{

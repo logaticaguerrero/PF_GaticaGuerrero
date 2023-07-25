@@ -20,13 +20,15 @@ header {
 .navbar-nav {
   padding-left: 2em;
   --bs-nav-link-color:$color-principal;
-  --bs-nav-link-hover-color: #D75E5E; }
+  --bs-nav-link-hover-color:$color-hover; }
 
 .bg-body-tertiary {
   --bs-bg-opacity: 0; }
 
 .nav-item {
   color: #634C39; }
+  .nav-item:hover {
+    color: #D75E5E; }
 
 h1 {
   text-align: right;
@@ -38,14 +40,7 @@ h2 {
   color: #634C39; }
 
 #copy {
-  height: 109px;
   width: 648px;
-  color: #634C39;
-  font-size: 24px;
-  text-align: right; }
-
-#copyAlt {
-  width: 669px;
   color: #634C39;
   font-size: 24px;
   text-align: right; }
@@ -70,14 +65,12 @@ h5 {
   font-size: 64px;
   color: #f5f5f5; }
 
-.panesIzquierda {
+.panesIzquierda, .panesDerecha {
   height: 100%;
-  width: 85%;
+  width: 75%;
   text-align: left; }
 
 .panesDerecha {
-  height: 100%;
-  width: 85%;
   text-align: right; }
 
 .grid-container {
@@ -88,23 +81,23 @@ h5 {
   column-gap: 3em;
   row-gap: 3em; }
 
-div#nuestrospanes {
+#nuestrospanes {
   grid-area: nuestrospanes; }
 
-article#masamadre {
+#masamadre {
   grid-area: masamadre; }
 
-article#fermentacion {
+#fermentacion {
   grid-area: fermentacion; }
 
-article#sabor {
+#sabor {
   grid-area: sabor; }
 
-article#variedades {
+#variedades {
   grid-area: variedades; }
 
-article#formatos {
-  grid-area: formatos; }
+#formato {
+  grid-area: formato; }
 
 .localidades {
   color: #634C39;
@@ -187,8 +180,6 @@ footer {
     font-size: 48px; }
   .h2Alt {
     font-size: 48px; }
-  #copyAlt {
-    font-size: 16px; }
   .localidades {
     font-size: 16px; }
   #copy {
@@ -220,8 +211,6 @@ footer {
     font-size: 80px; }
   .h2Alt {
     font-size: 80px; }
-  #copyAlt {
-    font-size: 20px; }
   .localidades {
     font-size: 20px; }
   #copy {
@@ -249,8 +238,6 @@ footer {
     font-size: 96px; }
   .h2Alt {
     font-size: 90px; }
-  #copyAlt {
-    font-size: 24px; }
   #copy {
     font-size: 24px; }
   .TextoReceta {

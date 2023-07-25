@@ -17,10 +17,9 @@
 }
 
 .btn {
-    // Define the &-primary nested class
     &-primary {
-      color: #fff;
-      background-color: $color-principal;
-      border-color: $color-principal;
+    color: #fff;
+    background-color: $color-principal;
+    border-color: $color-principal;
     }
-  }
+}

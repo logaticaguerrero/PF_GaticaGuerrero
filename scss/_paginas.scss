@@ -28,14 +28,12 @@ h5{
 
 .panesIzquierda{
     height: 100%;
-    width: 85%;
+    width: 75%;
     text-align: left;
 }
 
 .panesDerecha{
-
-    height: 100%;
-    width: 85%;
+    @extend .panesIzquierda;
     text-align: right;
 }
 
@@ -54,24 +52,11 @@ h5{
     row-gap: 3em;
 }
 
-div#nuestrospanes{
+#nuestrospanes{
     grid-area: nuestrospanes;
 }
-article#masamadre{
-    grid-area: masamadre;
-}
-article#fermentacion{
-    grid-area: fermentacion;
-}
-article#sabor{
-    grid-area: sabor;
-}
-article#variedades{
-    grid-area: variedades;
-}
-article#formatos{
-    grid-area: formatos;
-}
+
+@import "./each";
 
 // ZONAS
 .localidades{

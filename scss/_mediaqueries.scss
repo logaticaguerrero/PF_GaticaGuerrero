@@ -9,9 +9,6 @@
         .h2Alt{
             font-size: 48px;
         }
-        #copyAlt{
-            font-size: 16px;
-    }
         .localidades{
         font-size: 16px;
     }
@@ -50,7 +47,7 @@
             justify-content: stretch;
         }
     }
-    
+
 // TABLETS
     @media (min-width: 576px) and (max-width: 992px) {
         h1{
@@ -61,9 +58,6 @@
         }
         .h2Alt{
             font-size: 80px;
-        }
-        #copyAlt{
-            font-size: 20px;
         }
         .localidades{
             font-size: 20px;
@@ -99,7 +93,6 @@
         }
     }
 
-    
 // DESKTOP
     @media (min-width: 992px) {
         h1{
@@ -110,9 +103,6 @@
         }
         .h2Alt{
             font-size: 90px;
-        }
-        #copyAlt{
-            font-size: 24px;
         }
         #copy{
         font-size: 24px;
@@ -141,5 +131,3 @@
             row-gap: 3em;
         }
     }
-    
-    
