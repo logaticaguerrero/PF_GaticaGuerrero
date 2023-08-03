@@ -6,7 +6,7 @@
         h2{
             font-size: 48px;
         }
-        .h2Alt{
+        .titulo_form{
             font-size: 48px;
         }
         .localidades{
@@ -56,7 +56,7 @@
         h2{
             font-size: 80px;
         }
-        .h2Alt{
+        .titulo_form{
             font-size: 80px;
         }
         .localidades{
@@ -101,7 +101,7 @@
         h2{
             font-size: 96px;
         }
-        .h2Alt{
+        .titulo_form{
             font-size: 90px;
         }
         #copy{
@@ -129,5 +129,11 @@
             "formatos none";
             column-gap: 3em;
             row-gap: 3em;
+        }
+        .navbar.bg-body-tertiary {
+            background-color: transparent;
+        }
+        header ul{
+            background-color: transparent;
         }
     }

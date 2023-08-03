@@ -3,7 +3,7 @@ header {
   background-color: rgba(234, 233, 233, 0.2);
   position: sticky; }
   header ul {
-    background-color: none;
+    background-color: rgba(234, 233, 233, 0.7);
     padding: 1em;
     vertical-align: top;
     text-align: right; }
@@ -56,6 +56,12 @@ h2 {
   font-size: 20px;
   color: #634C39; }
 
+.rectangulo {
+  background-color: rgba(234, 233, 233, 0.5);
+  height: 20rem;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
 .FotoReceta {
   width: 357px;
   height: 217px; }
@@ -68,7 +74,7 @@ h2 {
   font-size: 20px;
   color: #f5f5f5; }
 
-h5 {
+.titulo_propiedades {
   font-size: 64px;
   color: #f5f5f5; }
 
@@ -148,7 +154,22 @@ h5 {
   font-size: 32px;
   color: #634C39; }
 
-.h2Alt {
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer; }
+
+.btn-primary {
+  background-color: #634C39;
+  border-color: #634C39;
+  color: #f5f5f5; }
+  .btn-primary:hover {
+    background-color: #D75E5E;
+    border-color: #D75E5E; }
+  .btn-primary:active {
+    background-color: #f5f5f5 !important;
+    border-color: #f5f5f5 !important;
+    color: #634C39 !important; }
+
+.titulo_form {
   font-size: 96px;
   color: #f5f5f5;
   text-align: right; }
@@ -162,11 +183,6 @@ h5 {
   font-size: 24px;
   color: #f5f5f5;
   text-align: left; }
-
-.btn-primary {
-  color: #fff;
-  background-color: #634C39;
-  border-color: #634C39; }
 
 footer {
   font-size: 0;
@@ -185,7 +201,7 @@ footer {
     font-size: 72px; }
   h2 {
     font-size: 48px; }
-  .h2Alt {
+  .titulo_form {
     font-size: 48px; }
   .localidades {
     font-size: 16px; }
@@ -216,7 +232,7 @@ footer {
     font-size: 135px; }
   h2 {
     font-size: 80px; }
-  .h2Alt {
+  .titulo_form {
     font-size: 80px; }
   .localidades {
     font-size: 20px; }
@@ -243,7 +259,7 @@ footer {
     font-size: 135px; }
   h2 {
     font-size: 96px; }
-  .h2Alt {
+  .titulo_form {
     font-size: 90px; }
   #copy {
     font-size: 24px; }
@@ -259,7 +275,11 @@ footer {
     grid-template-rows: repeat(5, 1fr 0, 25fr);
     grid-template-areas: "masamadre nuestrospanes" "masamadre fermentacion" "sabor fermentacion" "sabor variedades" "formatos variedades" "formatos none";
     column-gap: 3em;
-    row-gap: 3em; } }
+    row-gap: 3em; }
+  .navbar.bg-body-tertiary {
+    background-color: transparent; }
+  header ul {
+    background-color: transparent; } }
 
 * {
   margin: 0;
