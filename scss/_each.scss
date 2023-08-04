@@ -3,7 +3,6 @@ masamadre: masamadre,
 fermentacion: fermentacion,
 sabor: sabor,
 variedades: variedades,
-formato: formato,
 );
 @each $nombre, $nombre in $articles {
     ##{$nombre}{
