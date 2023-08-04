@@ -6,20 +6,31 @@
         h2{
             font-size: 48px;
         }
+        .copy_landing{
+            font-size: 18px;
+        }
         .titulo_form{
             font-size: 48px;
         }
         .localidades{
         font-size: 16px;
-    }
-    #copy{
+        }
+        #copy{
         font-size: 16px;
-    }
-    .TextoReceta{
+        }
+        .TextoReceta{
         font-size: 14px;
         }
-    #texto_biodiversidad{
+        #texto_biodiversidad{
         font-size: 14px;
+        }
+        .txt_highlight{
+            font-size: 20px;
+            color:$color-principal;
+        }
+        .icono_nosimporta{
+            height: auto;
+            width:3rem;
         }
         .textoLanding{
             font-size: 14px;
@@ -39,13 +50,13 @@
             row-gap: 0;
             padding: 0;
         }
-        .h5Alt{
-            font-size: 48px;
-        }
         .grid-item{
             padding: 0%;
             justify-content: stretch;
         }
+        .subtitulo_eshop{
+            font-size: 36px;
+    }
     }
 
 // TABLETS
@@ -56,6 +67,9 @@
         h2{
             font-size: 80px;
         }
+        .copy_landing{
+            font-size: 24px;
+        }        
         .titulo_form{
             font-size: 80px;
         }
@@ -70,6 +84,14 @@
             }
         #texto_biodiversidad{
             font-size: 18px;
+        }
+        .txt_highlight{
+            font-size: 24px;
+            color:$color-principal;
+        }
+        .icono_nosimporta{
+            height: auto;
+            width:4rem;
         }
         .textoLanding{
             font-size: 18px;
@@ -91,7 +113,10 @@
             padding: 0%;
             justify-content: stretch;
         }
+        .subtitulo_eshop{
+            font-size: 48px;
     }
+}
 
 // DESKTOP
     @media (min-width: 992px) {

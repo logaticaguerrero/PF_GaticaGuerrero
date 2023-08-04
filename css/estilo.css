@@ -56,11 +56,21 @@ h2 {
   font-size: 20px;
   color: #634C39; }
 
+.copy_landing {
+  padding-right: 1rem;
+  text-align: left;
+  vertical-align: top;
+  font-size: 24px;
+  color: #f5f5f5; }
+
 .rectangulo {
   background-color: rgba(234, 233, 233, 0.5);
   height: 20rem;
   border-radius: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+#Encabezado {
+  margin-bottom: 10rem; }
 
 .FotoReceta {
   width: 357px;
@@ -68,7 +78,7 @@ h2 {
 
 .TextoReceta {
   width: 357px;
-  padding: 0%;
+  padding-right: 1rem;
   text-align: left;
   vertical-align: top;
   font-size: 20px;
@@ -117,10 +127,28 @@ h2 {
   font-size: 24px;
   text-align: left; }
 
-#texto_biodiversidad {
-  text-align: right;
+.texto_biodiversidad {
   font-size: 20px;
-  color: #f5f5f5; }
+  color: #634C39; }
+
+.icono_nosimporta {
+  height: auto;
+  width: 6rem; }
+
+.highlight {
+  background-color: rgba(99, 76, 57, 0.1);
+  margin-left: 0.1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.txt_highlight {
+  font-size: 36px;
+  color: #634C39; }
+
+.subtitulo_eshop {
+  font-size: 72px;
+  color: #f5f5f5;
+  text-align: right; }
 
 .card {
   width: 336px;
@@ -186,7 +214,7 @@ h2 {
 
 footer {
   font-size: 0;
-  background-color: rgba(234, 233, 233, 0.2); }
+  background-color: rgba(99, 76, 57, 0.1); }
   footer nav ul li {
     font-size: 16px;
     list-style-type: none;
@@ -201,6 +229,8 @@ footer {
     font-size: 72px; }
   h2 {
     font-size: 48px; }
+  .copy_landing {
+    font-size: 18px; }
   .titulo_form {
     font-size: 48px; }
   .localidades {
@@ -211,6 +241,12 @@ footer {
     font-size: 14px; }
   #texto_biodiversidad {
     font-size: 14px; }
+  .txt_highlight {
+    font-size: 20px;
+    color: #634C39; }
+  .icono_nosimporta {
+    height: auto;
+    width: 3rem; }
   .textoLanding {
     font-size: 14px; }
   .grid-container {
@@ -221,17 +257,19 @@ footer {
     row-gap: 1em;
     row-gap: 0;
     padding: 0; }
-  .h5Alt {
-    font-size: 48px; }
   .grid-item {
     padding: 0%;
-    justify-content: stretch; } }
+    justify-content: stretch; }
+  .subtitulo_eshop {
+    font-size: 36px; } }
 
 @media (min-width: 576px) and (max-width: 992px) {
   h1 {
     font-size: 135px; }
   h2 {
     font-size: 80px; }
+  .copy_landing {
+    font-size: 24px; }
   .titulo_form {
     font-size: 80px; }
   .localidades {
@@ -242,6 +280,12 @@ footer {
     font-size: 16px; }
   #texto_biodiversidad {
     font-size: 18px; }
+  .txt_highlight {
+    font-size: 24px;
+    color: #634C39; }
+  .icono_nosimporta {
+    height: auto;
+    width: 4rem; }
   .textoLanding {
     font-size: 18px; }
   .grid-container {
@@ -252,7 +296,9 @@ footer {
     row-gap: .25em; }
   .grid-item {
     padding: 0%;
-    justify-content: stretch; } }
+    justify-content: stretch; }
+  .subtitulo_eshop {
+    font-size: 48px; } }
 
 @media (min-width: 992px) {
   h1 {
