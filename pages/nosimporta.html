@@ -124,9 +124,9 @@
                         <div class="container-fluid col-sm-12 col-lg-6">
                             <aside class="d-flex flex-column">
                                 <h2 class="titulo_form">contactanos</h2>
-                                <p class="textoForm">Dejanos tus dudas e inquietudes y nos comunicaremos con vos a la brevedad. También podés escribirnos directamente a nuestro WhatsApp.</p>
-                                <p class="textoForm">contacto@despacho27.com</p>
-                                <p class="textoForm">+ 54 9 11 3311 9476</p>
+                                <p class="textoForm" style="padding-bottom: 2rem;">Dejanos tus dudas e inquietudes y nos comunicaremos con vos a la brevedad. También podés escribirnos directamente a nuestro WhatsApp.</p>
+                                <a class="textoForm" style="text-decoration: none; justify-content: end; align-items: center; padding-bottom: 1rem;" href="#" target="_blank"><img src="../assets/icons/mail.svg" alt="mail">     hola@despacho.com.ar</a>
+                                <a class="textoForm" style="text-decoration: none; justify-content: end; align-items: center" href="https://api.whatsapp.com/send?phone=5491133119476" target="_blank"><img src="../assets/icons/🦆 icon _whatsapp_.svg" alt="whatsapp">     11 3311 9476</a>
                             </aside>
                         </div>
                     </div>
@@ -134,20 +134,37 @@
             </div>
         </section>
     </main>
-<footer class="container-fluid flex-column">
-    <nav>
-        <div class="overflow-visible d-flex flex-column align-items-center" id="logotipo-footer">
-            <img class="img-fluid" width="100px" height="140px" src="../assets/icons/despacho27_logo.png" alt="logo">
-                <div class="container-fluid h-100">
-                    <ul class="d-flex justify-content-end align-items-center nav">
-                        <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/despacho.27/"><img src="../assets/icons/🦆 icon _instagram_.svg" alt="Instagram Icon"></a></li>
+    <footer class="container-fluid flex-column">
+        <nav>
+            <div class="overflow-visible d-flex flex-column align-items-center" id="logotipo-footer">
+                <img class="img-fluid" width="100px" height="140px" src="../assets/icons/despacho27_logo.png" alt="logo">
+                <div class="d-lg-none col-12 d-flex flex-column align-items-center">
+                    <a class="texto_grid" style="text-decoration: none;" href="https://www.instagram.com/despacho.27/" target="_blank">
+                        <img src="../assets/icons/🦆 icon _instagram_.svg" alt="Instagram Icon"> ¡Seguinos en Instagram!
+                    </a>
+                </div>
+                <div class="d-lg-none col-12 d-flex flex-column align-items-center">
+                    <ul class="nav">
                         <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Políticas de privacidad</a></li>
-                    </ul>  
+                    </ul>
                 </div>
-        </div>
-    </nav>
-</footer>
+                <div class="d-lg-flex d-none col-12">
+                    <div class="d-lg-flex col-lg-6 justify-content-start align-items-center">
+                        <a class="texto_grid" style="text-decoration: none;" href="https://www.instagram.com/despacho.27/" target="_blank">
+                            <img src="../assets/icons/🦆 icon _instagram_.svg" alt="Instagram Icon"> ¡Seguinos en Instagram!
+                        </a>
+                    </div>
+                    <div class="d-flex col-lg-6 justify-content-end align-items-center">
+                        <ul class="nav">
+                            <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Políticas de privacidad</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
