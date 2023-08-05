@@ -6,4 +6,4 @@ DS_Store
 #Ignora todos los archivos 
 *.rtf
 
-node_modules
+/node_modules
