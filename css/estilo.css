@@ -8,6 +8,7 @@ header {
     text-align: right; }
     header ul li {
       font-size: 16px;
+      font-weight: 500;
       list-style-type: none; }
       header ul li a {
         color: #634C39; }
